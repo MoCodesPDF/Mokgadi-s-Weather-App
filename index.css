@@ -14,9 +14,9 @@ main {
 
 
 .weather-app-data {
-    display: flex;
-    justify-content: space-between;
-}
+    max-width: 600px;
+    margin: 0 auto;
+  }
 .weather-app {
     background-color: #F6F5FA;
     max-width: 600px;
