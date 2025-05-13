@@ -9,8 +9,16 @@ header {
 }
 main {
     padding: 30px 0;
-
+    background-color: white;
 }
+
+.weather-app-overview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px; /* spacing between text and temp */
+    flex-wrap: wrap; /* helps on small screens */
+  }
 
 .weather-app-data {
     max-width: 600px;
@@ -26,7 +34,7 @@ main {
 }
 
 .search-form {
-    background-color: white;
+    background-color: whitesmoke;
     display: flex;
     gap: 10px; /* Adds space between input and button */
     padding: 10px;
