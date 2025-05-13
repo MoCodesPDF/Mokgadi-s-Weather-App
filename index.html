@@ -1,59 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css" />
-    <title>My Weather App</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+  <title>My Weather App</title>
 </head>
+
 <body>
-<div class="weather-app-data">
+
+    <div class="weather-app-data">
     <div class="weather-app">
-        <header>
-            <form class="search-form">
-                <input type="search" placeholder="Enter Your City" class="search-form-input"/>
-                <input type="submit" value="Search" class="search-form-button"/>
-            </form>
-        </header>
+      
+<header>
+        <form class="search-form">
+          <input type="search" placeholder="Enter Your City" class="search-form-input" />
+          <input type="submit" value="Search" class="search-form-button" />
+        </form>
+</header>
 
-        <main>
-<div>
+<main>
 
-            <h1 class="weather-app-city">Netherlands</h1>
-        <p class="weather-app-details">
-            Today 14:19, scatter clouds
-            <br />
+        <h1 class="weather-app-city">Netherlands</h1>
+            <p class="weather-app-details">
+             Today 14:19, scatter clouds <br />
             Humidity: <strong>68%</strong>, <strong>Wind 3.13km/h</strong>
-        </p>
+            </p>
+
+        <div class="weather-app-container">
+          <div class="weather-app-icon">⌚</div>
+          <div class="weather-app-value">12</div>
+          <div class="weather-app-unit">°C</div>
         </div>
 
-    <div class="weather-app-container">
-        <div class="weather-app-icon">⌚</div>
-        <div class="weather-app-value">12</div>
-        <div class="weather-app-unit">°C</div>
+</main>
 
-    </div>
+    <footer>
+        <a href="https://github.com/MoCodesPDF" target="_blank">
+          This project was coded by Mokgadi Sekete
+        </a>
+        <a href="https://github.com/MoCodesPDF/Mokgadi-s-Weather-App" target="_blank">
+          Hosted on GitHub
+        </a>
+        and the Website is Hosted on
+        <a href="https://mokgadiweather.netlify.app/" target="_blank">Netlify</a>
+    </footer>
 
-</div>
+    </div> <!-- .weather-app -->
+  </div> <!-- .weather-app-data -->
 
-        </main>
-    
-        <footer>
-            <a href="https://github.com/MoCodesPDF" target="_blank">
-            This project was coded by Mokgadi Sekete
-            </a>
-            <a href="https://github.com/MoCodesPDF/Mokgadi-s-Weather-App" target="_blank">
-            Hosted on GitHub
-            </a>
-            and the Website is Hotsed on
-            <a href="https://mokgadiweather.netlify.app/" target="_blank"> 
-            Netlify
-            </a>
-        </footer>
-    </div>
-<script src="index.js"></script>
+  <script src="index.js"></script>
+
 </body>
+
 </html>
