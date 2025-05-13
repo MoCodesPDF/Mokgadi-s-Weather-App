@@ -26,29 +26,32 @@ main {
     padding: 30px;
 }
 
-.search-form{
+.search-form {
     background-color: white;
-}
+    display: flex;
+    gap: 10px; /* Adds space between input and button */
+    padding: 10px;
+    border-radius: 8px;
+  }  
 
-.search-form-input {
+  .search-form-input {
+    flex: 1;
     background-color: #F6F5FA;
     border: none;
     border-radius: 7px;
-    width: 80%;
     font-size: 16px;
     padding: 15px 20px;
-
-}
-
-.search-form-button {
+  }
+  
+  .search-form-button {
     background-color: #7B52ED;
     font-size: 16px;
     border-radius: 6px;
     border: none;
     color: whitesmoke;
-    margin-left: 5px;
     padding: 15px 30px;
-}
+    cursor: pointer;
+  }
 
 .weather-app-city {
     margin: 0;
